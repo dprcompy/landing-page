@@ -127,7 +127,7 @@ export default function Home() {
         <p className="max-w-3xl text-xl md:text-3xl font-[family-name:var(--font-rajdhani)] font-medium text-zinc-100 mb-10 leading-relaxed animate-fade-in-delay-1 tracking-wide uppercase">
           Sistemas de gestión inteligentes
           <br />
-          para profesionales modernos
+          para profesionales
         </p>
 
         {/* Description */}
