@@ -35,7 +35,7 @@ export default function Home() {
       <header className="relative z-10 flex items-center justify-between px-6 py-6 md:px-12">
         <div className="flex items-center gap-2">
           {/* Minimalist text logo */}
-          <span className="text-lg font-bold tracking-tight text-white/90">DPRHub</span>
+          <span className="text-lg font-bold tracking-tight text-white/90">DPR Hub</span>
         </div>
         <nav>
           {/* Optional minimal nav or contact button */}
@@ -82,7 +82,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="relative z-10 py-8 text-center border-t border-white/5">
         <p className="text-xs text-zinc-600 font-mono tracking-widest uppercase">
-          © 2026 DPRHub · Innovación Cloud-Native
+          © 2026 DPR Hub · Innovación Cloud-Native
         </p>
         {/* SEO Content - Hidden but indexable */}
         <div className="sr-only">

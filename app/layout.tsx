@@ -47,6 +47,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.dprhub.com",
   },
+  icons: {
+    icon: '/favicon.jpg',
+    shortcut: '/favicon.jpg',
+    apple: '/favicon.jpg',
+  },
 };
 
 export default function RootLayout({
