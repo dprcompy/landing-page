@@ -7,22 +7,10 @@ export const metadata: Metadata = {
 
 const projects = [
     {
-        title: "Dental Chart 3D",
+        title: "Sirius",
         category: "HealthTech",
-        description: "Sistema de gestión clínica con visualización 3D interactiva para odontología avanzada.",
+        description: "Sistema integral de gestión clínica con visualización 3D interactiva para odontología avanzada. Incluye control de pacientes, agenda inteligente y facturación.",
         status: "En producción"
-    },
-    {
-        title: "Inventory AI Core",
-        category: "Logística",
-        description: "Motor de predicción de stock basado en inteligencia artificial para optimizar cadenas de suministro.",
-        status: "Beta"
-    },
-    {
-        title: "DPR Authentication",
-        category: "Seguridad",
-        description: "Sistema de identidad federada y control de acceso robusto para aplicaciones empresariales.",
-        status: "En desarrollo"
     }
 ];
 
@@ -39,11 +27,11 @@ export default function ProjectsPage() {
                     </p>
                 </header>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="flex flex-wrap justify-center gap-6">
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="group flex flex-col p-6 border border-zinc-800 rounded-2xl bg-zinc-900/20 hover:bg-zinc-900/40 hover:border-zinc-700 transition-all duration-300"
+                            className="group flex flex-col p-6 border border-zinc-800 rounded-2xl bg-zinc-900/20 hover:bg-zinc-900/40 hover:border-zinc-700 transition-all duration-300 w-full max-w-md"
                         >
                             <div className="flex items-center justify-between mb-4">
                                 <span className="text-xs font-mono text-zinc-500 uppercase tracking-widest border border-zinc-800 px-2 py-1 rounded-md">
