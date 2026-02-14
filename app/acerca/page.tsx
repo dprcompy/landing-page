@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Acerca de nosotros | DPRHub',
-    description: 'Conoce más sobre DPRHub, nuestra misión de redefinir la eficiencia empresarial a través de sistemas inteligentes y arquitectura cloud-native.',
+    title: 'Acerca de nosotros | DPR',
+    description: 'Conoce más sobre DPR, nuestra misión de redefinir la eficiencia empresarial a través de sistemas inteligentes y arquitectura cloud-native.',
 };
 
 export default function AboutPage() {
@@ -20,7 +20,7 @@ export default function AboutPage() {
 
                 <div className="prose prose-invert prose-lg text-zinc-300 leading-relaxed space-y-6">
                     <p>
-                        En <strong>DPRHub</strong>, nos dedicamos a transformar la manera en que las empresas operan.
+                        En <strong>DPR</strong>, nos dedicamos a transformar la manera en que las empresas operan.
                         Nuestra filosofía se basa en la integración de <span className="text-white font-medium">inteligencia artificial</span> y
                         <span className="text-white font-medium"> arquitectura cloud-native</span> para crear sistemas que no solo gestionan datos,
                         sino que impulsan decisiones inteligentes.

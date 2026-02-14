@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Contacto | DPRHub',
-    description: 'Ponte en contacto con el equipo de DPRHub para discutir tus necesidades de software empresarial.',
+    title: 'Contacto | DPR',
+    description: 'Ponte en contacto con el equipo de DPR para discutir tus necesidades de software empresarial.',
 };
 
 export default function ContactPage() {

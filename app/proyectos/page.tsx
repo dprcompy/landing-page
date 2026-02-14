@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Proyectos | DPRHub',
-    description: 'Explora nuestros proyectos y soluciones de software inteligente desarrollados por DPRHub.',
+    title: 'Proyectos | DPR',
+    description: 'Explora nuestros proyectos y soluciones de software inteligente desarrollados por DPR.',
 };
 
 const projects = [

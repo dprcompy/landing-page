@@ -66,7 +66,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${robotoMono.variable} antialiased`}
       >
-        <div className="relative flex flex-col min-h-screen bg-black text-white selection:bg-zinc-800 font-sans overflow-hidden">
+        <div className="relative flex flex-col min-h-screen bg-black text-white selection:bg-white/20 font-sans overflow-hidden">
           {/* Background Gradients */}
           <div className="absolute inset-0 z-0 pointer-events-none">
             <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-zinc-900/30 rounded-full blur-[120px]" />
